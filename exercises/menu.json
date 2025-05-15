@@ -1,0 +1,11 @@
+[
+    "local-login",
+    "local-session",
+    "jwt-sign",
+    "jwt-verify",
+    "oauth-google",
+    "oauth-github",
+    "multi-strategy",
+    "oauth-federation"
+  ]
+  

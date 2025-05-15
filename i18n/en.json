@@ -1,0 +1,36 @@
+{
+    "local-login": {
+      "title": "Local Strategy – Basic Login",
+      "subtitle": "Set up passport-local to verify username and password"
+    },
+    "local-session": {
+      "title": "Sessions & Middleware",
+      "subtitle": "Add session support with express-session"
+    },
+    "jwt-sign": {
+    "title": "JWT Signing",
+    "subtitle": "Sign a JWT token after successful login using Passport.js"
+   },
+    "jwt-verify": {
+      "title": "JWT Verification",
+      "subtitle": "Verify a JWT token using Passport.js"
+    },
+    "oauth-google": {
+      "title": "OAuth2 with Google",
+      "subtitle": "Authenticate users with Google using OAuth2"
+    },
+    "oauth-github": {
+      "title": "OAuth2 with GitHub",
+      "subtitle": "Authenticate users with GitHub using OAuth2"
+    },
+    "multi-strategy": {
+      "title": "Multi-Strategy Authentication",
+      "subtitle": "Use multiple authentication strategies in your app"
+    },
+    "oauth-federation": {
+      "title": "Federated Identity with OAuth",
+      "subtitle": "Implement federated identity using OAuth"
+    }
+    
+  }
+  

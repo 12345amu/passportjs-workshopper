@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Verify local-login submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/locallogin/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Launch exercises",
+             "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node",
+            "console": "integratedTerminal"
+        }
+
+        
+    ]
+}
