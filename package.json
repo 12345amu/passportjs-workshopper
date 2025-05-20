@@ -10,6 +10,32 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "workshopper": "^2.7.0",
-    "workshopper-exercise": "^3.0.3"
+    "jsonwebtoken": "^9.0.0",
+    "passport-jwt": "^4.0.0",
+    "workshopper-exercise": "^3.0.3",
+    "express-session": "^1.18.1"
+
+    
+  },
+  "scripts": {
+    "start": "node bin/passport-workshopper.js",
+    "test": "node test/run-tests.js"
+  },
+  "keywords": [
+    "passport",
+    "authentication",
+    "cli",
+    "workshopper",
+    "passport-local",
+    "passport-jwt",
+    "passport-oauth",
+    "learning",
+    "exercises"
+  ],
+  "author": "Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/12345amu/passportjs-workshopper.git"
   }
 }

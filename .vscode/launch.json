@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Verify local-session submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/localsession/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Verify local-login submission",
             "type": "node",
             "request": "launch",
