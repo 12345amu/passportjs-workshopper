@@ -33,3 +33,9 @@ In this exercise, you will implement local authentication using Passport.js for 
 #### Command:
 ```bash
 node app.js user password123
+
+### Resources
+
+- (https://www.passportjs.org/concepts/authentication/sessions/) Learn how `serializeUser()` and `deserializeUser()` [Sessions – Passport.js]
+- (http://www.passportjs.org/docs/authenticate/#custom-callback)  [Custom Callback in passport.authenticate()]
+- (https://github.com/jaredhanson/passport-local)  [passport-local GitHub Repository]

@@ -22,3 +22,10 @@ Use the following hardcoded user:
   username: "user1",
   password: "password123"
 }
+
+### Resources
+
+- (https://www.passportjs.org/) – Introduction to Passport.js and its authentication ecosystem.  [Passport.js Overview]
+- (https://github.com/jaredhanson/passport-local) – GitHub repo with setup and usage of username/password authentication. [Passport-Local Strategy] 
+- (http://www.passportjs.org/docs/username-password/) – How to configure and implement the LocalStrategy.  [passport.use() and LocalStrategy]
+- (http://www.passportjs.org/docs/authenticate/) – Guide on invoking authentication with or without a custom callback.   [passport.authenticate()]
