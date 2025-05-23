@@ -36,6 +36,8 @@ node app.js user password123
 
 ### Resources
 
-- (https://www.passportjs.org/concepts/authentication/sessions/) Learn how `serializeUser()` and `deserializeUser()` [Sessions – Passport.js]
-- (http://www.passportjs.org/docs/authenticate/#custom-callback)  [Custom Callback in passport.authenticate()]
-- (https://github.com/jaredhanson/passport-local)  [passport-local GitHub Repository]
+- (https://www.passportjs.org/packages/passport-local/) – Passport Local Strategy for username/password authentication. [passport-local Strategy]  
+- (https://www.passportjs.org/concepts/authentication/sessions/) – Explanation of `serializeUser` and `deserializeUser` for session management. [Passport Sessions]  
+- (http://www.passportjs.org/docs/authenticate/) – Using `passport.authenticate()` with a custom callback. [passport.authenticate()]  
+- (https://www.passportjs.org/concepts/authentication/) – Overview of how Passport handles authentication and user serialization. [Passport.js Authentication Concepts]  
+

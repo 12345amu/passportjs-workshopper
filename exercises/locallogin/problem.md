@@ -9,6 +9,11 @@ In this exercise, you will implement local authentication using Passport.js for 
 4. If login is successful, print `SESSION ACTIVE FOR user1`
 5. If login fails, print `LOGIN FAILED`
 
+### Hints
+* Use `passport-local` to create a local strategy for authentication.
+* Use `passport.authenticate()` to authenticate the user.
+* Use `process.argv` to get the command-line arguments.
+
 ### Input
 
 - `process.argv[2]`: Username
@@ -25,7 +30,8 @@ Use the following hardcoded user:
 
 ### Resources
 
-- (https://www.passportjs.org/) – Introduction to Passport.js and its authentication ecosystem.  [Passport.js Overview]
-- (https://github.com/jaredhanson/passport-local) – GitHub repo with setup and usage of username/password authentication. [Passport-Local Strategy] 
-- (http://www.passportjs.org/docs/username-password/) – How to configure and implement the LocalStrategy.  [passport.use() and LocalStrategy]
-- (http://www.passportjs.org/docs/authenticate/) – Guide on invoking authentication with or without a custom callback.   [passport.authenticate()]
+- (https://www.passportjs.org/packages/passport-local/) – Passport Local Strategy for authenticating users with username and password. [passport-local Strategy]  
+- (http://www.passportjs.org/docs/authenticate/) – Usage of `passport.authenticate()` including custom callback for manual control. [passport.authenticate()]  
+- (https://www.passportjs.org/concepts/authentication/) – Overview of Passport.js authentication concepts and workflow. [Passport.js Authentication Concepts]  
+- (https://www.passportjs.org/concepts/authentication/sessions/) – How Passport manages sessions (serialize/deserialize) — optional if using sessions. [Passport Sessions]
+

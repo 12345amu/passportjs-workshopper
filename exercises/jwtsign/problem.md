@@ -10,8 +10,11 @@ In this exercise, your goal is to implement JWT signing after successful login u
 4. Print `LOGIN FAILED` if authentication fails.
 
 ### Hints
-1. Use jsonwebtoken to sign the JWT.
-2. The JWT should include the username and role as the payload.
+- Use the `passport-jwt` strategy to authenticate the user.
+- Use the `jsonwebtoken` library to generate the JWT token.
+- Use the `console.log` function to print the results.
+
+1. The JWT should include the username and role as the payload.
 
 Use the following hardcoded user credentials for authentication:
 
@@ -22,3 +25,11 @@ Use the following hardcoded user credentials for authentication:
   password: "password123",
   role: "user"
 }
+
+### Resources
+
+- (https://www.passportjs.org/concepts/authentication/) – Overview of Passport.js authentication strategies and usage.  [Passport.js Authentication]
+- (https://github.com/jaredhanson/passport-local) – GitHub repository and docs for Passport Local Strategy for username/password authentication.  [passport-local Strategy]
+- (http://www.passportjs.org/docs/authenticate/) – Guide on how to use `passport.authenticate()` including custom callbacks.  [passport.authenticate()]
+- (https://github.com/auth0/node-jsonwebtoken) – GitHub repository and documentation for the `jsonwebtoken` library used to sign and verify JWT tokens.  [jsonwebtoken Library]
+- (https://jwt.io/introduction/) – Introduction to JSON Web Tokens (JWT), their structure, usage, and security considerations.  [JWT Introduction]
