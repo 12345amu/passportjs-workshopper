@@ -1,4 +1,4 @@
-# Exercise: Local Authentication with Passport.js (CLI)
+## Problem: Implement Session-Based Authentication with Passport.js
 
 ## Objective:
 In this exercise, you will implement local authentication using Passport.js for a command-line interface (CLI). You will authenticate a user based on a username and password, and if successful, you will simulate session management by printing a session-active message.

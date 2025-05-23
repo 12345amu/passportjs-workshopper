@@ -26,8 +26,8 @@ passport.authenticate('local', (err, user) => {
   } else {
     const token = jwt.sign(
       { username: user.username, role: user.role },
-      'your-secret-key', // Secret key for signing JWT
-      { expiresIn: '1h' } // Optional: Set expiration time
+      'your-secret-key', 
+      { expiresIn: '1h' } 
     );
     //console.log('LOGIN SUCCESS');
     //console.log(token);

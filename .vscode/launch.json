@@ -5,6 +5,66 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Verify multi-strategy submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/multistrategy/solution/index.js",
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Verify oauth-github submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/oauthgithub/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Verify oauth-google submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/oauthgoogle/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Verify jwt-verify submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/jwtverify/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Verify jwt-sign submission",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/passport-workshopper.js",
+            "args": [
+                "verify",
+                "${workspaceFolder}/exercises/jwtsign/solution/index.js"
+            ],
+            "skipFiles": ["<node_internals>/**"],
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Verify local-session submission",
             "type": "node",
             "request": "launch",

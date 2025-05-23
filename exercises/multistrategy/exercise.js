@@ -1,0 +1,24 @@
+const path = require('path');
+const workshopperExercise = require('workshopper-exercise');
+const filecheck = require('workshopper-exercise/filecheck');
+const execute = require('workshopper-exercise/execute');
+const comparestdout = require('workshopper-exercise/comparestdout');
+
+const exercise = workshopperExercise();
+
+exercise.use(filecheck());
+exercise.use(execute());
+exercise.use(comparestdout());
+
+exercise.addSetup(function (mode, callback) {
+    const authType = 'local';  
+    const username = 'user1';
+    const password = 'password123';
+
+    this.submissionArgs = [authType, username, password];
+    this.solutionArgs = [authType, username, password];
+
+    callback();
+});
+
+module.exports = exercise;

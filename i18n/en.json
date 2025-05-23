@@ -26,10 +26,6 @@
     "multi-strategy": {
       "title": "Multi-Strategy Authentication",
       "subtitle": "Use multiple authentication strategies in your app"
-    },
-    "oauth-federation": {
-      "title": "Federated Identity with OAuth",
-      "subtitle": "Implement federated identity using OAuth"
     }
     
   }
